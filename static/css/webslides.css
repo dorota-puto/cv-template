@@ -3673,7 +3673,7 @@ input[type='submit'],
 .button:hover,
 button[type='submit']:hover,
 input[type='submit']:hover {
-  border: 1px solid #44d; }
+  border: 1px solid rgb(219, 45, 97); }
 
 button[type='submit'],
 input[type='submit'],
@@ -3681,7 +3681,7 @@ input[type='submit'],
 .button:hover,
 button[type='submit']:hover,
 input[type='submit']:hover {
-  background-color: #44d;
+  background-color: rgb(219, 45, 97);
   color: #fff;
   text-shadow: 0 1px 0 #123; }
 
@@ -3721,8 +3721,8 @@ button:disabled:hover {
   color: #ccc; }
 
 fieldset {
-  background-color: rgba(0, 20, 80, 0.2);
-  border: 1px solid #44d; }
+  background-color: rgba(0, 43, 80, 0.75);
+  border: 1px solid rgb(219, 45, 97)}
 
 legend {
   background-color: rgba(0, 0, 0, 0.6);
@@ -3789,3 +3789,27 @@ Slides Index
 
 .text-slide-number {
   color: #abc; }
+
+  #skillswrap {
+    
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
+  }
+  
+  #skillswrap  {
+    color: white;
+  }
+
+  @media (min-width: 1200px) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+      float: left;
+         width: 25%;
+          position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+    }
+
+ 
