@@ -2733,8 +2733,7 @@ input[type='submit'] {
   font-size: 1.6rem;
   margin-top: 1.6rem; }
 
-fieldset {
-  padding: 2.4rem; }
+
 
 legend {
   border: 0;
@@ -3673,7 +3672,7 @@ input[type='submit'],
 .button:hover,
 button[type='submit']:hover,
 input[type='submit']:hover {
-  border: 1px solid rgb(219, 45, 97); }
+  border: 1px solid rgb(196, 16, 115); }
 
 button[type='submit'],
 input[type='submit'],
@@ -3681,7 +3680,7 @@ input[type='submit'],
 .button:hover,
 button[type='submit']:hover,
 input[type='submit']:hover {
-  background-color: rgb(219, 45, 97);
+  background-color: rgb(196, 16, 115);
   color: #fff;
   text-shadow: 0 1px 0 #123; }
 
@@ -3720,9 +3719,7 @@ button:disabled:hover {
   border-color: #eee;
   color: #ccc; }
 
-fieldset {
-  background-color: rgba(0, 43, 80, 0.75);
-  border: 1px solid rgb(219, 45, 97)}
+
 
 legend {
   background-color: rgba(0, 0, 0, 0.6);

@@ -28,7 +28,21 @@ jQuery(document).ready(function( $ ) {
       color: "#ecf0f1"
     }
   ];
-  var myDoughnut = new Chart(document.getElementById("spanish").getContext("2d")).Doughnut(doughnutData);
+  var options = {
+		segmentShowStroke : false,
+		segmentStrokeColor : "#fff",
+		segmentStrokeWidth : 2,
+		percentageInnerCutout : 70,
+		animationSteps : 100,
+		animationEasing : "easeOutBounce",
+		animateRotate : true,
+		animateScale : false,
+		responsive: true,
+		maintainAspectRatio: true,
+		showScale: true,
+		animateScale: true
+	}
+  var myDoughnut = new Chart(document.getElementById("spanish").getContext("2d")).Doughnut(doughnutData,options);
 
   
   var doughnutData = [{
@@ -40,7 +54,7 @@ jQuery(document).ready(function( $ ) {
     color: "#ecf0f1"
   }
   ];
-  var myDoughnut = new Chart(document.getElementById("english").getContext("2d")).Doughnut(doughnutData);
+  var myDoughnut = new Chart(document.getElementById("english").getContext("2d")).Doughnut(doughnutData, options);
 
   
   var doughnutData = [{
@@ -52,7 +66,7 @@ jQuery(document).ready(function( $ ) {
     color: "#ecf0f1"
   }
   ];
-  var myDoughnut = new Chart(document.getElementById("german").getContext("2d")).Doughnut(doughnutData);
+  var myDoughnut = new Chart(document.getElementById("german").getContext("2d")).Doughnut(doughnutData, options);
 
   
   var doughnutData = [{
@@ -64,7 +78,7 @@ jQuery(document).ready(function( $ ) {
     color: "#ecf0f1"
   }
   ];
-  var myDoughnut = new Chart(document.getElementById("autocad").getContext("2d")).Doughnut(doughnutData);
+  var myDoughnut = new Chart(document.getElementById("autocad").getContext("2d")).Doughnut(doughnutData, options);
 
   
   var doughnutData = [{
@@ -76,7 +90,7 @@ jQuery(document).ready(function( $ ) {
     color: "#ecf0f1"
   }
   ];
-  var myDoughnut = new Chart(document.getElementById("photoshop").getContext("2d")).Doughnut(doughnutData);
+  var myDoughnut = new Chart(document.getElementById("photoshop").getContext("2d")).Doughnut(doughnutData, options);
 
   
   var doughnutData = [{
@@ -88,5 +102,5 @@ jQuery(document).ready(function( $ ) {
     color: "#ecf0f1"
   }
   ];
-  var myDoughnut = new Chart(document.getElementById("3d").getContext("2d")).Doughnut(doughnutData);
+  var myDoughnut = new Chart(document.getElementById("3d").getContext("2d")).Doughnut(doughnutData, options);
 });
